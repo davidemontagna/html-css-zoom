@@ -14,6 +14,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+main{
+    height: calc(100vh - 70px);
+}
+
 /*visualizzazione e ingrandimento*/
 .visualization{
     display: flex;
@@ -68,7 +72,6 @@ footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-top: 20px;
     line-height: 100%;
 }
 
